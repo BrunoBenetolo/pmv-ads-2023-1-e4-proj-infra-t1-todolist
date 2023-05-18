@@ -49,7 +49,7 @@ function logarSistema(){
                 .then((token)=>{
                     console.log(token)
                     setCookie("jwtToken", token, 1);
-                    window.location.href=window.location.href+"main.html";
+                    window.location.href="/main.html";
 
                 })
                 .catch((error)=>{
