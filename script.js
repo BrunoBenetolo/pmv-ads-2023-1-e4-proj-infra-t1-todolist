@@ -49,7 +49,7 @@ function logarSistema(){
                 .then((token)=>{
                     console.log(token)
                     setCookie("jwtToken", token, 1);
-                    window.location.href="pmv-ads-2023-1-e4-proj-infra-t1-todolist/main.html";
+                    window.location.href=window.location.href+"main.html";
 
                 })
                 .catch((error)=>{
